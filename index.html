@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Information Query</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Car Information Query</h1>
+        <form id="queryForm">
+            <label for="query">Ask about the cars:</label>
+            <input type="text" id="query" name="query" placeholder="e.g. 'Which car has the highest top speed?'" required>
+            <button type="submit">Ask</button>
+        </form>
+
+        <div id="responseContainer" class="response">
+            <!-- The AI-generated response will appear here -->
+        </div>
+
+        
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
